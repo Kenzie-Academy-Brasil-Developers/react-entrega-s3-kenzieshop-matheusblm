@@ -1,11 +1,4 @@
-import {
-  AppBar,
-  IconButton,
-  Badge,
-  MenuItem,
-  Menu,
-  Typography,
-} from "@material-ui/core";
+import { AppBar, IconButton, Badge, Typography } from "@material-ui/core";
 import useStyles from "./styles";
 import { ShoppingCart, Home } from "@material-ui/icons";
 import Toolbar from "@material-ui/core/Toolbar";

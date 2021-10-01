@@ -26,7 +26,12 @@ const CardProduct = ({ product, remove = false }) => {
           <Typography variant="h5" gutterBottom>
             {name}
           </Typography>
-          <Typography variant="h5">{price}</Typography>
+          <Typography variant="h5" ml={3}>
+            {price.toLocaleString("pt-br", {
+              style: "currency",
+              currency: "BRL",
+            })}
+          </Typography>
         </div>
         <CardActions disableSpacing className={classes.CardActions}>
           {remove ? (
